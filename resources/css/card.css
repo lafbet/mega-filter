@@ -1,0 +1,42 @@
+/* Nova Card CSS */
+.w-1\/4 {
+    width: 25%;
+}
+
+.mega-filter {
+    height: auto
+}
+
+.mega-filter .filters h3 {
+    background-color: transparent;
+    text-transform: capitalize;
+    color: var(--black);
+}
+
+.mega-filter .form-control-sm {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    height: 2.25rem;
+}
+
+.mega-filter .select-filter svg {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.mega-filter .filter-number-field {
+    width: 50% !important;
+}
+
+.mega-filter .filter-number-field > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0.75rem; 
+    grid-template-areas: ". .";
+    margin: 0;
+}
+
+.mega-filter .filter-number-field .block {
+    margin: 0 !important;
+}
